@@ -1,0 +1,56 @@
+[
+  {
+    "age": 24,
+    "id": 0,
+    "name": "Josefina",
+    "scientificName": "placekitten"
+  },
+  {
+    "age": 42,
+    "id": 1,
+    "name": "Josep",
+    "scientificName": "placekitten"
+  },
+  {
+    "age": 19,
+    "id": 2,
+    "name": "Simon",
+    "scientificName": "placekitten"
+  },
+  {
+    "age": 32,
+    "id": 3,
+    "name": "Harry",
+    "scientificName": "placekitten"
+  },
+  {
+    "age": 30,
+    "id": 4,
+    "name": "Vi",
+    "scientificName": "placekitten"
+  },
+  {
+    "age": 27,
+    "id": 5,
+    "name": "Jule",
+    "scientificName": "placekitten"
+  },
+  {
+    "age": 42,
+    "id": 6,
+    "name": "Brice",
+    "scientificName": "placekitten"
+  },
+  {
+    "age": 21,
+    "id": 7,
+    "name": "Hiedi",
+    "scientificName": "placekitten"
+  },
+  {
+    "age": 29,
+    "id": 8,
+    "scientificName": "Pityriasis gymnocephala",
+    "name": "Bornean bristlehead"
+  }
+]
