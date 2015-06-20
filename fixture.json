@@ -1,56 +1,47 @@
 [
-  {
-    "age": 24,
-    "id": 0,
-    "name": "Josefina",
-    "scientificName": "placekitten"
-  },
-  {
-    "age": 42,
-    "id": 1,
-    "name": "Josep",
-    "scientificName": "placekitten"
-  },
-  {
-    "age": 19,
-    "id": 2,
-    "name": "Simon",
-    "scientificName": "placekitten"
-  },
-  {
-    "age": 32,
-    "id": 3,
-    "name": "Harry",
-    "scientificName": "placekitten"
-  },
-  {
-    "age": 30,
-    "id": 4,
-    "name": "Vi",
-    "scientificName": "placekitten"
-  },
-  {
-    "age": 27,
-    "id": 5,
-    "name": "Jule",
-    "scientificName": "placekitten"
-  },
-  {
-    "age": 42,
-    "id": 6,
-    "name": "Brice",
-    "scientificName": "placekitten"
-  },
-  {
-    "age": 21,
-    "id": 7,
-    "name": "Hiedi",
-    "scientificName": "placekitten"
-  },
-  {
-    "age": 29,
-    "id": 8,
-    "scientificName": "Pityriasis gymnocephala",
-    "name": "Bornean bristlehead"
-  }
+    {
+        "age": "55-60 million years",
+        "id": 0,
+        "name": "European robin"
+    },
+    {
+        "age": "55-60 million years",
+        "id": 1,
+        "name": "Fawn-breasted bowerbird"
+    },
+    {
+        "age": "~60 million years",
+        "id": 2,
+        "name": "Green-backed kingfisher"
+    },
+    {
+        "age": "~85 million years",
+        "id": 3,
+        "name": "vulturine guineafowl"
+    },
+    {
+        "age": "~70 million years",
+        "id": 4,
+        "name": "Atlantic puffin"
+    },
+    {
+        "age": "~85 million years",
+        "id": 5,
+        "name": "Australian brushturkey"
+    },
+    {
+        "age": "~70 million years",
+        "id": 6,
+        "name": "American golden plover"
+    },
+    {
+        "age": "55-60 million years",
+        "id": 7,
+        "name": "Barn swallow"
+    },
+    {
+        "age": "55-60 million years",
+        "id": 8,
+        "name": "Bornean bristlehead"
+    }
 ]

@@ -18,13 +18,13 @@ DROPPED_PROPERTIES = ['assignees']
 def jsonResponse(data):
     return Response(headers={'Access-Control-Allow-Origin': '*'}, content_type='application/json', response=json.dumps(data))
 
-@app.route('/cards/', methods=['GET'])
+@app.route('/birds/', methods=['GET'])
 def getAllCards():
     print("get all")
     objects = [pickle.loads(data_store.get(key)) for key in data_store.keys()]
     return jsonResponse(objects)
 
-@app.route('/cards/<string:id>', methods=['GET'])
+@app.route('/birds/<string:id>', methods=['GET'])
 def getCard(id):
     print("get {0}".format(id))
     object = data_store.get(id)
@@ -38,7 +38,7 @@ def getCard(id):
             unpickled['id'] = id
         return jsonResponse(json.dumps(unpickled))
 
-@app.route('/cards/<string:id>', methods=['POST'])
+@app.route('/birds/<string:id>', methods=['POST'])
 def setCard(id):
     print("set {0}".format(id))
     object = json.loads(request.data)
@@ -52,7 +52,7 @@ def setCard(id):
         # return jsonResponse(unpickled)
         return getCard(id)
 
-@app.route('/cards/<string:id>', methods=['DELETE'])
+@app.route('/birds/<string:id>', methods=['DELETE'])
 def deleteCard(id):
     response = data_store.delete(id)
     return jsonResponse('Deleted {0} objects'.format(response))
